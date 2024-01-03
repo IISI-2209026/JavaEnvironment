@@ -13,6 +13,15 @@ public class WeatherForcast
     private String summary;
     private Date date;
 
+    public WeatherForcast() {
+
+    }
+    public WeatherForcast(int temperatureC, String summary, Date date) {
+        this.temperatureC = temperatureC;
+        this.summary = summary;
+        this.date = date;
+    }
+
     @JsonProperty("temperatureF")
     public int TemperatureF() {
         return 32 + (int)(temperatureC / 0.5556);

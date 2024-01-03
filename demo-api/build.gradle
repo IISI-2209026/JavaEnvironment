@@ -19,6 +19,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	// web annotations
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// logger
+	implementation 'org.springframework.boot:spring-boot-starter-logging'
 
 	// lombok
 	compileOnly 'org.projectlombok:lombok:1.18.30'
